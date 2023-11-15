@@ -1,0 +1,49 @@
+//let colorlist = ['gold', 'yellow', 'turquoise', 'red']
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(255, 165, 0);
+  frameRate(random(1000));
+}
+
+function draw() {
+  
+  fill(random (256), random (20), random (5))
+  ellipse(random(1000), random(1000), 50);
+  print(random(256));
+
+  fill(random(10),random(200),random(20))
+  arc(random(256), random(256), random(256), random(256), random(256), random(256), CHORD); 
+  print(random(20));
+
+  strokeWeight(random(15));
+  fill(random(2),random(95),random(200))
+  arc(random(256), random(256), random(256), random(256), random(256), random(256), PIE);
+  print(random(20));
+}
+//quad(20,55,30,99,130,44,255,125);
+
+
+  
+//triangle(30,65,130,255,90,33);
+
+  //strokeWeight(9);
+  //stroke(100,30,66);
+  //line(40,0,width,height);
+
+ // strokeWeight(10);
+  //stroke(0,0,255);
+  //point(130,255);
+  //point(155,230);
+
+  
+  //angleMode(DEGREES); 
+//  strokeWeight(7);
+ //fill(200,15,0)
+//arc(150, 50, 100, 100, 0, 270, CHORD); 
+ // strokeWeight(15);
+  //fill(290,7,0)
+  //arc(250, 200, 100, 100, 0, 270, PIE); 
+  //strokeWeight(5);
+  //fill(100,5,0)
+  //arc(350, 350, 100, 100, 0, 270, OPEN);  
